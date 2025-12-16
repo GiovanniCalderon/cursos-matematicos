@@ -1,0 +1,43 @@
+/* ================================
+   TÍTULO PRINCIPAL (h1)
+   ================================ */
+.md-typeset h1 {
+    color: #1a73e8 !important;   /* azul */
+    font-weight: 700;            /* negrita */
+}
+
+/* ================================
+   ENLACES GENERALES DEL MENÚ
+   (Inicio, títulos, etc.)
+   ================================ */
+.md-nav__item .md-nav__link {
+    color: #1a73e8 !important;
+}
+
+/* ================================
+   TÍTULOS DE LOS CURSOS EN EL MENÚ
+   (Cálculo, EDO, Análisis numérico)
+   ================================ */
+.md-nav__item--section > .md-nav__link {
+    font-weight: 700;            /* negrita */
+    color: #1a73e8 !important;   /* azul */
+}
+
+/* ================================
+   SUBPÁGINAS DEL MENÚ
+   (Presentación, Temario, Recursos)
+   ================================ */
+.md-nav__item--nested .md-nav__list .md-nav__link {
+    padding-left: 1.0rem !important;   /* sangría */
+    
+    font-size: 0.60rem !important;      /* MÁS PEQUEÑO */
+    font-weight: normal !important;     /* no negrita */
+    color: #000 !important;             /* negro */
+
+    line-height: 1.0 !important;        /* MÁS JUNTOS */
+    margin-top: 0 !important;           /* reduce separación */
+    margin-bottom: 0 !important;
+    padding-top: 0.15rem !important;    /* ajustes finos */
+    padding-bottom: 0.15rem !important;
+}
+
