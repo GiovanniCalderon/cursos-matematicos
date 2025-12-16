@@ -1,5 +1,6 @@
-site_name: Cursos de Matemáticas – Giovanni Calderón
-site_author: Giovanni Calderón
+site_name: "Cursos de Matemáticas – Giovanni Calderón"
+site_author: "Giovanni Calderón"
+
 theme:
   name: material
   language: es
@@ -9,6 +10,9 @@ theme:
     - navigation.top
     - toc.integrate
     - content.code.copy
+
+extra_css:
+  - overrides/custom.css
 
 markdown_extensions:
   - admonition
