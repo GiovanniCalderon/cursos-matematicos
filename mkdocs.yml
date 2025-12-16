@@ -1,0 +1,39 @@
+site_name: Cursos de Matemáticas – Giovanni Calderón
+site_author: Giovanni Calderón
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Inicio: index.md
+  - Cálculo multivariable:
+      - Presentación: calculo/index.md
+      - Temario: calculo/temario.md
+      - Recursos: calculo/recursos.md
+  - Ecuaciones diferenciales:
+      - Presentación: edo/index.md
+      - Temario: edo/temario.md
+      - Recursos: edo/recursos.md
+  - Análisis numérico:
+      - Presentación: analisis-numerico/index.md
+      - Temario: analisis-numerico/temario.md
+      - Recursos: analisis-numerico/recursos.md
